@@ -1,0 +1,144 @@
+/* CSS Document */
+#homepanel {}
+#content .cpanel-left .cpanel {
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    float: left;
+    margin-bottom: 20px;
+    padding: 2.5%;
+    width: 95%;
+}
+#content  .cpanel-left {
+    float: left;
+    width: 57.1823%;
+}
+#content .cpanel-right {
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    float: right;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    width: 40.0552%;
+}
+#content .cpanel-right dl.tabs {
+    margin: 0;
+}
+#content .cpanel-right .current {
+    font-size: 11px;
+    margin: 0 0 15px;
+    padding: 0 2.5%;
+}
+#content .cpanel-right dl.tabs h3 {
+    font-size: 20px;
+    margin: 15px 0 10px;
+    padding: 0 2.5%;
+}
+
+.icon {
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+#content .icon a {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+.icon a {
+    background-color: #ffffff;
+    background-position: -30px center;
+    border: 4px solid #cccccc;
+    border-radius: 25px;
+    color: #565656;
+    display: block;
+    float: left;
+    height: 100px;
+    text-decoration: none;
+    transition-duration: 0.8s;
+    transition-property: background-position, -moz-border-radius-bottomleft, -moz-box-shadow;
+    vertical-align: middle;
+    width: 120px;
+}
+#content .cpanel-left .cpanel .icon-wrapper {
+	display:inline-block;
+	height:auto;
+	width:100%;
+}
+
+.icon span {
+    float: left;
+    width: 100%;
+	padding:5px 0 0;
+}
+
+.icon a img {
+    padding-top: 10px;
+}
+#homepanel .width-60 {
+	float:left;
+	width:65%;
+}
+#homepanel .width-40 {
+	float:right;
+	width:30%;
+}
+#homepanel ul.adminformlist {
+	margin:0;
+}
+#homepanel ul.adminformlist li {
+	list-style:none;
+}
+#homepanel .width-60 ul.adminformlist li label {
+	font-weight:bold;
+}
+#homepanel .width-40 ul.adminformlist li {
+	display:inline-block;
+	width:100%;
+	margin:0 0 5px;
+}
+#homepanel .width-40 ul.adminformlist li label {
+	float:left;
+	width:95px;
+}
+ 
+
+span.add_em	{
+	padding:0px 10px;
+	font-size:12px;
+	cursor:pointer;
+	background-color: #f5f5f5;
+    background-image: linear-gradient(to bottom, #fff, #e6e6e6);
+    background-repeat: repeat-x;
+    border-color: #bbb #bbb #a2a2a2;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333;
+    display: inline-block;
+    line-height: 18px;
+    margin-left: 10px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+
+td.r_button input {
+	float:none;
+	vertical-align:sub;
+	margin:5px;
+}
+td.r_button input:first-child {
+	margin-left:0;
+}
+input.dateshow {
+	margin-right:0;
+}
+.up_clear img {
+	margin-top:0;
+}

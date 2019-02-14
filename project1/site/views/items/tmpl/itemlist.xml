@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_HELLOWORLD_ITEM_LIST_TITLE">
+		<message>COM_HELLOWORLD_ITEM_LIST_VIEW</message>
+	</layout>
+	<fields
+			name="request"
+			>
+		<fieldset name="request">
+			<field
+					name="all"
+					type="number"
+					label="COM_HELLOWORLD_ITEMS_ALL"
+					description="COM_HELLOWORLD_ITEMS_ALL_DESC"/>
+		</fieldset>
+	</fields>
+</metadata>

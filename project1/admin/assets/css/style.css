@@ -1,0 +1,60 @@
+/* CSS Document */
+table {
+	width:100%;
+}
+table tr {}
+table tr td, table tr th {
+	padding:10px;
+}
+table.search_form {
+	margin:0 0 10px;
+}
+.list-footer {
+    border: 1px solid #dddddd;
+    padding: 10px 0;
+    text-align: center;
+}
+#icons #icon-pdf a, .search_form button, .img_inner_container .resulations a {
+	background-color: #37a8f0;
+    color: #ffffff;
+    padding: 5px 7px;
+    text-decoration: none;
+	display:inline-block;
+}
+.search_form button {
+	border:none;
+	cursor:pointer;
+}
+.search_form input {
+	padding:5px;
+	border:1px solid #d3d3d3;
+}
+.search_form input:focus {
+	border:1px solid #d3d3d3;
+}
+#icons #icon-pdf a:hover, .search_form button:hover, .img_inner_container .resulations a:hover {
+	background:#999;
+}
+#icons #icon-pdf span.title {}
+#icons #icon-pdf img {
+	vertical-align:middle;
+	height:20px;
+}
+.img_inner_container {
+	padding:0 0 15px;
+}
+.img_inner_container .up_clear {
+    border: 2px solid #cccccc;
+    height: 50px;
+    width: 50px;
+	margin:0 25px 0 0;
+}
+.img_inner_container .controls img {
+    height: 50px;
+    max-width: 100%;
+}
+.img_inner_container .resulations {
+}
+.img_inner_container .resulations span {
+	display:inline-block;
+}
